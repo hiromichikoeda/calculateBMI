@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         let bmiFloor = floor(bmi*100)/100// 3.14（小数第3位で切り捨て）
         print("bmiFloor")
         bmiText.text = "あなたのBMIは" + String(bmiFloor) + "です。"
+        
     }
     
 }
